@@ -1,1 +1,15 @@
 pvKnfYoOcGjebigF0wDPq9QkypsMEE2bX574
+
+i have a problem in this project and this happens when i changed the sdk-build folder and added the new build 
+index.js:6 Uncaught (in promise) TypeError: Cannot convert undefined or null to object
+    at Object.keys (<anonymous>)
+    at ./sdk-build/core/index.js (index.js:6:1
+    at __webpack_require__ (bootstrap:22:1)
+    at fn (hot module replacement:61:1
+    at ./src/event-submitter.ts (event-submitter.ts:1:1
+    at __webpack_require__ (bootstrap:22:1)
+    at fn (hot module replacement:61:1
+    at ./src/smapi-root-config.ts (smapi-root-config.ts:2:1
+    at __webpack_require__ (bootstrap:22:1)
+    at startup:7:1
+i;m using i new library called heic2any.js i gues the problem happens for missing import or somthing like this can you check the project but dont change the sdk-build you can check the git changes to compare the previous build that worked and this one 
